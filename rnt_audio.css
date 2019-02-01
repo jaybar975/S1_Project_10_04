@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Justin Aybar
+   Date: 2.1.19 
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+/* This sets the audio element with a display of block, a bow shadow of 8 pixels, 8 pixels, and 15 pixels with the color dar gray, a margin of 20 pixels and auto, a width of 80 percent, and a border radius of 50 pixels */
+audio {
+    display: block;
+    box-shadow: 8px 8px 15px darkgray;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+/* This sets the audio element with a pseudo class of webkit media controls panel with a background color of red blue green of (128, 128, 128) */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
